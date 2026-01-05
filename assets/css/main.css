@@ -4024,4 +4024,64 @@ body {
   color: #93c5fd;
 }
 
+/* === Header logo: show name again, no white box === */
+#header .logo {
+  background: transparent !important;
+  border: 0 !important;
+  padding: 0.75em 1.5em !important;
+}
+
+#header .logo strong {
+  display: inline-block;
+  background: transparent !important;
+  color: #ffffff !important;
+  padding: 0 !important;
+}
+
+#header .logo span {
+  color: #93c5fd !important;
+}
+
+/* === Slate grey background + section separation === */
+body {
+  background: #1f2328 !important;
+}
+
+#main > section {
+  background-color: #1a1d21 !important;
+}
+
+#main > section:nth-child(even) {
+  background-color: #1d2025 !important;
+}
+
+/* === Buttons: better contrast === */
+#banner .button,
+#top .button,
+#main .button {
+  color: #ffffff !important;
+  border-color: rgba(255,255,255,0.35) !important;
+}
+
+#banner .button.primary,
+#top .button.primary,
+#main .button.primary {
+  background-color: #2563eb !important;
+  border-color: #2563eb !important;
+  color: #ffffff !important;
+}
+
+#banner .button:not(.primary),
+#top .button:not(.primary),
+#main .button:not(.primary) {
+  background-color: #2b313a !important;
+}
+
+#banner .button:hover,
+#top .button:hover,
+#main .button:hover {
+  filter: brightness(1.08);
+}
+
+
 
