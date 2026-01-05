@@ -3969,4 +3969,8 @@ input, select, textarea {
   color: #2563eb !important; /* subtle blue accent */
 }
 
+#header {
+  background-color: #1f2328;
+}
+
 
