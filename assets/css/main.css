@@ -3951,4 +3951,22 @@ input, select, textarea {
 			opacity: 1;
 			visibility: visible;
 		}
+/* === KEEP HEADER LOGO WHITE === */
+
+/* White logo background */
+#header .logo {
+  background: #ffffff !important;
+  color: #000000 !important;
+}
+
+/* Ensure name text stays dark inside white badge */
+#header .logo strong {
+  color: #000000 !important;
+}
+
+/* Keep "CYBERSECURITY" text readable */
+#header .logo span {
+  color: #2563eb !important; /* subtle blue accent */
+}
+
 
